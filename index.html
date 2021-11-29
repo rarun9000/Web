@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Prompt:wght@700&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>    
+    <div class="top-banner">
+       <div class="menu">
+            <a href="#"><img src="Asset/logo.png" height = "85px" width="140px"></a>
+            <ul class="menu1"> 
+                <li><a class="links" href="#">Favourites</a></li>
+                <li><a class="links" href="#">Booking</a></li>
+                <li><a class="links" href="#">Posts</a></li>
+            </ul>
+            <button id="no-box"><img src="Asset/Profile.png" height="15px" width="15px"/>&nbsp &nbsp &nbsp Arun R &nbsp &nbsp | &nbsp &nbsp Logout</button>
+       </div>
+       <span id="accom">Add Accommodation</span>
+       <div class="pages">
+            <ul class="menu2"> 
+                <li id="select">Apartments</li>
+                <li>Hostels</li>
+                <li>Cottage</li>
+                <li>Cars</li>
+                <li>Forum</li>
+                <li>Video</li>
+            </ul>
+       </div>
+       
+       <hr>
+       <p>ПОСУТОЧНЫЕ УСЛУГИ<br>OT ЧACTHbН ЛУГ</p>       
+       <button class="video">Watch the video</button>
+    </div>
+    
+    <div class="find">            
+            <img src="Asset/location.png" width="22em" id="loc"/> 
+            <input type="text" name="location" id="location" placeholder="Search here">            
+            <img id="d-icon" src="Asset/calendar.png"  width="22em"/>
+            <input type = "date" id="date1" name="from"/><span id="i">---</span>
+            <input type="date" id="date2" name="to"> 
+            <img src="Asset/coins.png" id="coins" width="40em"/>
+            <input type="number" id="price-min" min=2000 max=200000 placeholder="Min Price" name="min"><span id="i2">---</span>
+            <input type="number" id="price-max" min=2000 max=200000 placeholder="Max Price" name="max">
+            <br>
+            <button id="reset">Reset</button>
+            <span id="show">Show on map</span>
+            <button id="find-h">Find Hotels</button>
+    </div>    
+    <br>
+    <br>
+    <br>
+    <div class = "content">        
+       
+       <p class="picks">ОБЪЯВЛЕНИЯ О ПОСУТОЧНОЙ АРЕНДЕ</p>
+       <p class="pickss">со скидкой про бронировании сегодня</p>
+
+       <ul >
+           <li class="carousel-head select">Квартиры</li>
+           <li class="carousel-head">Коттотжы</li>
+           <li class="carousel-head">Хостолы</li>
+           <li class="carousel-head">Автомобили</li>
+       </ul>
+       
+        <!-- carousel -->
+        <div class="explore">
+            <div id="l-grad"></div>
+            <div id="r-grad"><img src="Asset/tower.png"/></div>
+            
+            <div class="hotels">
+                <img src="./hotels/hotel1.jpg" width="250px" height="200px">
+                <p>The Bund Puyan Hotel, Shanghai </p>
+            </div>   
+            <div class="hotels">
+                <img src="./hotels/hotel2.jpg" width="250px" height="200px">
+                <p>Yun He Ye Bo Hotel </p>
+            </div>  
+            <div class="hotels">
+                <img src="./hotels/hotel3.jpg" width="250px" height="200px">
+                <p>UrCove by HYATT Shanghai Jing'an </p>
+            </div>  
+            <div class="hotels">
+                <img src="./hotels/hotel4.jpg" width="250px" height="200px">
+                <p>Wanda Reign on the Bund </p>
+            </div>   
+            <br>
+            
+        </div>
+        <!-- Arrow left and right             -->
+        <img src="Asset/Arrow.png" id="left-a">
+        <img src="Asset/Arrow.png" id="right-a"><br>
+        <button id="more">Показать все</button>            
+    </div>
+</body>
+</html>
