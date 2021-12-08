@@ -1,26 +1,8 @@
 body{
     background-color: #19181e;
     color: rgb(255, 255, 255);
-    height : 100vh;
-    width: 97vw;
     font-family: 'Roboto';
-    display: block;
     place-items: center;
-}
-.top-banner{
-    background: linear-gradient(to bottom, rgba(29, 34, 78, 0.52), rgba(15, 15, 15, 0.73)),url('Asset/bg.jpg') no-repeat center center / cover ;      
-    border: 2px solid #191a18;    
-    margin-top: 1%;
-    height: 80%;
-}
-img{
-    padding-left: 2vh
-}
-hr{
-    position: relative;
-    height: 0;
-    margin-top: 40px;
-    border-top: 0.5px solid rgb(73, 73, 73);
 }
 .menu{
     display: flex;
@@ -29,48 +11,44 @@ hr{
     text-align: right;    
     align-items: center;
 }
-a{
-    color:rgb(255, 255, 255);
-    text-decoration: none;
+.menu a img{
+    height: 8vh;
+    width: 8vw;
+    margin-top: 1vh;
 }
-.menu2{
-    font-size: 10vh;
-    list-style: none;
-    font-family: 'Roboto';
-    color: grey;
-    float: left;
-    display: block;
-    padding-left:30px;
-    text-decoration: none;
-    position: absolute;
-    margin-top: 17px;
-    margin-left:25vw;
+.top-banner{
+    background: linear-gradient(to bottom, rgba(29, 34, 78, 0.52), rgba(15, 15, 15, 0.73)),url('Asset/bg.jpg') no-repeat center center / cover ;      
+    border: .05vh solid #191a18;    
+    margin: 0.78vh;
+    height: 80vh;
 }
-.menu2 li{
-    font-size: 2.5vh;
-    color: gray;
+button > img{
+    height: 3vh;
+    width: 1.5vw;
 }
-#select{
-    position: relative;    
-    margin-left: 4px;
-    border-bottom: 4px solid white;
-    align-items: center;
+#no-box{
+    box-shadow:0 0 0 #000000;
+    font-size: 1.3vw;
+    margin-right: .92vw;
     padding: 0;
-    padding-bottom: 3px;
-    color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    
 }
-
 ul li{
     font-size: 2vh;
     list-style: none;
     font-family: 'Roboto';
     float: left;
     color: rgb(255, 255, 255);
-    padding-left:30px;
+    padding-left:4vw;
     text-decoration: none;
 }
+
+
 button{
-    font-size: 2vh;
+    font-size: 1vw;
     background: none;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -84,24 +62,73 @@ button:hover{
     color: rgb(0, 0, 0);
     background-color: #cfa55b;
 }
+img{
+    padding-left: 2vh
+}
+hr{
+    position: relative;
+    height: 0;
+    margin: 0;
+    border-top: 0.5px solid rgb(73, 73, 73);
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.pages{
+    margin-top: 1vh;
+    margin-bottom: 0;
+    height: 5vh;
+    display: flex;
+}
+.menu2{
+    font-size: 4vw;
+    list-style: none;
+    font-family: 'Roboto';
+    color: grey;
+    text-decoration: none;        
+    height: 5vh;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.menu2 li{
+    font-size: 1.7vw;
+    color: gray;
+    width: 11vw;
+    height: 5vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#select{    
+    font-weight: 400;     
+    color: white;
+    align-items: center;        
+    border-bottom: 0.85vh solid burlywood;;
+}
 
 #accom{
     color: burlywood;
     display:inline-block;
     position: absolute;
-    font-size: 2.5vh;
-    margin-top: 16px;
-    margin-left: 10px;
+    font-size: calc((1vw + 2vh)/2);    
+    left: 2vw;
+    top: 14vh;
+    font-size: 1.2vw;
     border-bottom: dashed;
 }
+
 a.links:hover {
     color:#ffffff; 
-    border-bottom: 3px solid burlywood;
+    border-bottom: .21vw solid burlywood;
     cursor:pointer;      
 }
-#no-box{
-    box-shadow:0 0 0 #000000;
-}
+
 .top-banner p{
     padding-top: 30px;
     font-family: 'Roboto';
