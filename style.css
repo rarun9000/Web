@@ -28,7 +28,7 @@ button > img{
 }
 #no-box{
     box-shadow:0 0 0 #000000;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     margin-right: .92vw;
     padding: 0;
     display: inline-flex;
@@ -140,89 +140,98 @@ a.links:hover {
 .video{
     color: rgb(255, 255, 255);
     background-color: #cfa55b;
-    border-radius: 40px;
+    border-radius: 4vh;
+    height: 8vh;
+    width: 15vw;
     font-size: 3vh;
-    margin-left: 42vw;
-}
-.find{
-    width: 75vw;
-    height: 20vh;
-    padding-top: 50px;
-    background-color: #19181e;
-    border-radius: 50px;
     display: block;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-top:-35px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
+}
+
+.find{
+    width: 80vw;
+    height: 25vh;
+    background-color: #19181e;
+    border-radius: 2.7vw;
+    display: flex;
+    /* align-items: center; */
+    position: relative; 
+    margin: auto;
+    bottom: 12vh;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 4px 26px 15px 10px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 4px 26px 15px 10px rgba(0,0,0,0);
 }
 
 #loc{    
-    position:absolute;
-    margin-top: 12px; 
-    height: 3.5vh;   
+    margin: 0;
+    padding: 0;
+    height: 4vh;   
+    width: 2.5vw;
 }
 
 #location{
-    position: absolute;
-    margin-top:10px;
-    margin-left: 2.7vw;
-    width: 15vw;
+    margin: 0;
+    padding: 0;
+    width: 20vw;
     border: none;
     background-color: #19181e;
-    height: 3.5vh;
+    height: 3.6vh;
     color: white;
-    border-bottom: 2px solid #cfa55b;
+    border-bottom: 0.4vh solid #cfa55b;
     background-color: #201f24;
     outline: none;
 }
+
 #d-icon{
-    position: absolute;
-    margin-top: 12px;
-    height: 3.5vh;
-    margin-left: 18vw;
+    margin: 0;
+    padding: 0;
+    height: 4vh;
+    width: 3vw;
 }
+
 #date1{
-    position: absolute;
-    margin-top:10px;
-    margin-left: 21vw;
-    width: 10vw;
-    height: 4vh;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    min-width: 9vw;
+    font-size: 1.8vh;
+    height: 3.6vh;
     color: white;
-    border-bottom: 2px solid #cfa55b;
-    background-color: #201f24;
-    outline: none;
-}
-#date2{
-    position: absolute;
-    margin-top:10px;
-    margin-left: 33vw;
-    width: 10vw;
-    height: 4vh;
-    color: white;
-    border-bottom: 2px solid #cfa55b;
+    border-bottom: 0.4vh solid #cfa55b;
     background-color: #201f24;
     outline: none;
 }
 #i{
-    position: absolute;
-    margin-top:15px;
-    margin-left: 31.7vw;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    height: 4vh;
+    min-width:2.5vw;
 }
+
+#date2{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    min-width: 9vw;
+    font-size: 1.8vh;
+    height: 3.6vh;
+    color: white;
+    border-bottom: 0.4vh solid #cfa55b;
+    background-color: #201f24;
+    outline: none;
+}
+
 #coins{
-    position: absolute;
-    margin-top: 12px;
-    height: 3.5vh;
-    margin-left: 44vw;
+    margin: 0;
+    padding: 0;
+    height: 4vh;
+    width: 4vw;
 }
 #price-min{
-    position: absolute;
-    margin-top:10px;
-    margin-left: 48vw;
+    margin: 0;
+    padding: 0;
     width: 6vw;
     height: 4vh;
     color: white;
@@ -230,15 +239,10 @@ a.links:hover {
     background-color: #201f24;
     outline: none;
 }
-#i2{
-    position: absolute;
-    margin-top:15px;
-    margin-left: 54.8vw;
-}
+
 #price-max{
-    position: absolute;
-    margin-top:10px;
-    margin-left: 56vw;
+    margin: 0;
+    padding: 0;
     width: 6vw;
     height: 4vh;
     color: white;
@@ -246,37 +250,34 @@ a.links:hover {
     background-color: #201f24;
     outline: none;
 }
+.next{
+    display: flex;
+}
+
 #reset{
     color: rgb(255, 255, 255);
     background-color: #cfa55b;
-    text-decoration: none;
-    margin-top:  -5px;
-    width: 4vw;
-    border-radius: 15px;  
+    text-decoration: none;    
+    width: 5vw;
+    border-radius: 2vh;
     height: 4vh;  
     padding: 0;
-    margin-left: 65vw;
 }
 
 #show{
     color: grey;
     border-bottom: 2px dashed grey;
-    position: absolute;
     font-size: 2vh;
     width: 6vw;
-    margin-top: 55px;
-    margin-left: -600px;
 }
 #show:hover{
     color: white;
     font-size: 2.2vh;
     border-bottom: 2px dashed #cfa55b;
-    width: 7vw;
-    margin-left: -610px;
+    width: 7vw;    
     cursor: crosshair;
 }
 #find-h{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
